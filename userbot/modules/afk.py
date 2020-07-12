@@ -263,7 +263,7 @@ async def afk_on_pm(sender):
             if sender.sender_id not in USERS:
                 if AFKREASON:
                     await sender.reply(f"My Master **{DEFAULTUSER}** is **afk since** {afk_since}.\
-                        \n**Because My Master is** `{AFKREASON}`")
+                        \n**Because My Master is** `{AFKREASON}`\n So please wwit for my master a.k.a Sandesh to be online or kill yourself.😏😏")
                 else:
                     await sender.reply(f"My Master 👑 {DEFAULTUSER} 👑 is **afk Since** {afk_since}.\nand My Master Has Left a Word for You Only: \n{AFKSK}\n`.` ")
                 USERS.update({sender.sender_id: 1})
